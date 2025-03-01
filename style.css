@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.site--container {
+    background-color: #F4D04E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.card--body {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    padding: 24px;
+    box-shadow: 8px 8px black;
+    width: clamp(328px, 85vw, 384px);
+    font-size: clamp(12px, 3vw, 14px);
+}
+
+.card--main-image {
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card--information {
+    margin: 24px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card--tag {
+    background-color: #F4D04E;
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin-right: auto;
+    font-weight: 600;
+}
+
+.card--publish-date {
+    font-weight: 400;
+   
+}
+.card--title {
+    font-size: clamp(20px, 5vw, 24px);
+    cursor: pointer;
+}
+
+.card--title:hover {
+    color: #F4D04E;
+}
+
+.card--description {
+    font-weight: 400;
+    color: #6B6B6B;
+    font-size: clamp(14px, 3.5vw, 16px);
+}
+.card--author-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.card--profile-pic {
+    width: 32px;
+    height: 32px;
+}
+  
